@@ -1,7 +1,6 @@
 //start
 void buttonon( void )
 {
-  say("Woo", 1);
   sp_pframe(&current_sprite, 2);
   Playsound(20,22050,0,0,0);
 }
