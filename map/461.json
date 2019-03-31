@@ -397,7 +397,7 @@
          "id" : 17,
          "nohit" : 1,
          "que" : 0,
-         "script" : "",
+         "script" : "note",
          "seq" : 422,
          "size" : 100,
          "type" : 1,
