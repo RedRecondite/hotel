@@ -2317,7 +2317,7 @@
          "id" : 97,
          "nohit" : 0,
          "que" : 0,
-         "script" : "duck",
+         "script" : "tfduck",
          "seq" : 21,
          "size" : 100,
          "type" : 1,
