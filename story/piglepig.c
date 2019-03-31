@@ -10,7 +10,7 @@ wait(250)
 if (get_sprite_with_this_brain(3,1) > 0)
 {
 if (get_sprite_with_this_brain(9,1) > 0)
-say("#That vile monster is harassing my friends! Please help, kind stranger!",&current_sprite)
+say("`#That vile monster is harassing my friends! Please help, kind stranger!",&current_sprite)
 }
 
 }
