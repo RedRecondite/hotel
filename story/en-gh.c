@@ -13,7 +13,7 @@ sp_base_walk(&current_sprite, 760);
 sp_base_attack(&current_sprite, 750);
 sp_defense(&current_sprite, 2);
 sp_strength(&current_sprite, 15);
-sp_touch_damage(&current_sprite, 10);
+sp_touch_damage(&current_sprite, 0);
 sp_hitpoints(&current_sprite, 40);
 preload_seq(752);
 preload_seq(754);
@@ -32,6 +32,7 @@ void hit( void )
 {
 sp_brain(&current_sprite, 9);
 sp_target(&current_sprite, &enemy_sprite);
+sp_touch_damage(&current_sprite, 10);
 //lock on to the guy who just hit us
 //playsound
 playsound(28, 22050,0,&current_sprite, 0);
