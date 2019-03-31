@@ -30,6 +30,14 @@ preload_seq(544);
 preload_seq(546);
 preload_seq(548);
 
+
+wait(1)
+
+// if ducks are on the same screen, the bonca will attack them
+int &crap = get_rand_sprite_with_this_brain(3,1)
+if (&crap != 0)
+sp_target(&current_sprite,&crap)
+
 }
 
 
