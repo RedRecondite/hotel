@@ -118,6 +118,30 @@
          "warpy" : 0,
          "x" : 432,
          "y" : 189
+      },
+      {
+         "active" : true,
+         "clipbottom" : 0,
+         "clipleft" : 0,
+         "clipright" : 0,
+         "cliptop" : 0,
+         "desc" : null,
+         "fixed" : false,
+         "frame" : 10,
+         "hard" : 0,
+         "id" : 6,
+         "nohit" : 0,
+         "que" : 0,
+         "script" : "",
+         "seq" : 87,
+         "size" : 100,
+         "type" : 1,
+         "warp" : 0,
+         "warpmap" : 0,
+         "warpx" : 0,
+         "warpy" : 0,
+         "x" : 526,
+         "y" : 199
       }
    ]
 }
