@@ -93,7 +93,7 @@
          "y" : -12
       },
       {
-         "active" : true,
+         "active" : false,
          "clipbottom" : 0,
          "clipleft" : 0,
          "clipright" : 0,
