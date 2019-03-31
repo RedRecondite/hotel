@@ -277,7 +277,7 @@
          "id" : 12,
          "nohit" : 0,
          "que" : 288,
-         "script" : "en-stg",
+         "script" : "blank",
          "seq" : 821,
          "size" : 100,
          "type" : 1,
