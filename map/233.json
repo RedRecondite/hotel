@@ -412,8 +412,8 @@
          "warpmap" : 0,
          "warpx" : 0,
          "warpy" : 0,
-         "x" : 160,
-         "y" : 224
+         "x" : 218,
+         "y" : 244
       },
       {
          "active" : true,
@@ -436,7 +436,7 @@
          "warpmap" : 0,
          "warpx" : 0,
          "warpy" : 0,
-         "x" : 232,
+         "x" : 205,
          "y" : 79
       },
       {
@@ -460,8 +460,32 @@
          "warpmap" : 0,
          "warpx" : 0,
          "warpy" : 0,
-         "x" : 384,
-         "y" : 72
+         "x" : 351,
+         "y" : 80
+      },
+      {
+         "active" : true,
+         "clipbottom" : 0,
+         "clipleft" : 0,
+         "clipright" : 0,
+         "cliptop" : 0,
+         "desc" : null,
+         "fixed" : false,
+         "frame" : 5,
+         "hard" : 0,
+         "id" : 21,
+         "nohit" : 0,
+         "que" : 0,
+         "script" : "",
+         "seq" : 64,
+         "size" : 100,
+         "type" : 1,
+         "warp" : 0,
+         "warpmap" : 0,
+         "warpx" : 0,
+         "warpy" : 0,
+         "x" : 460,
+         "y" : 80
       }
    ]
 }
