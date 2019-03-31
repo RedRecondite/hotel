@@ -14,7 +14,7 @@ void buttonoff( void )
 
 void click ( void )
 {
-  say_xy("`%Please wait. (Creating new game), Woo!", 0, 394);
+  say_xy("`%Please wait. (Creating new game)", 0, 394);
   wait(1);
 
   //"turns game on"
