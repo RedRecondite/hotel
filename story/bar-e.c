@@ -3,6 +3,7 @@
 void main( void)
 {
 preload_seq(173);
+say("hi",1);
 }
 
 void hit ( void )
