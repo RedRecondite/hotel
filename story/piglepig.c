@@ -6,7 +6,7 @@ sp_base_walk(&current_sprite,40)
 sp_brain(&current_sprite,4)
 sp_speed(&current_sprite,1)
 
-wait(250)
+wait(500)
 if (get_sprite_with_this_brain(3,1) > 0)
 {
 if (get_sprite_with_this_brain(9,1) > 0)
