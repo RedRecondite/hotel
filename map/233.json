@@ -404,7 +404,7 @@
          "id" : 18,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "bed-1",
          "seq" : 64,
          "size" : 100,
          "type" : 1,
