@@ -629,7 +629,7 @@
          "id" : 27,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "hotelguard",
          "seq" : 291,
          "size" : 100,
          "type" : 1,
