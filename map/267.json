@@ -1,3 +1,28 @@
 {
-  "sprites": []
+   "sprites" : [
+      {
+         "active" : true,
+         "clipbottom" : 0,
+         "clipleft" : 0,
+         "clipright" : 0,
+         "cliptop" : 0,
+         "desc" : null,
+         "fixed" : false,
+         "frame" : 2,
+         "hard" : 0,
+         "id" : 1,
+         "nohit" : 0,
+         "que" : 0,
+         "script" : "",
+         "seq" : 64,
+         "size" : 100,
+         "type" : 1,
+         "warp" : 0,
+         "warpmap" : 0,
+         "warpx" : 0,
+         "warpy" : 0,
+         "x" : 296,
+         "y" : 201
+      }
+   ]
 }
