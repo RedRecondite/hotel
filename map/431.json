@@ -1765,7 +1765,7 @@
          "id" : 74,
          "nohit" : 0,
          "que" : 0,
-         "script" : "bpotion",
+         "script" : "rpotion",
          "seq" : 55,
          "size" : 100,
          "type" : 1,
