@@ -1,27 +1,51 @@
 {
-  "sprites": [
-    {
-      "id": 1,
-      "fixed": true,
-      "active": true,
-      "x": 287,
-      "y": 281,
-      "seq": 428,
-      "frame": 3,
-      "type": 1,
-      "size": 100,
-      "script": "",
-      "que": 0,
-      "hard": 0,
-      "clipleft": 0,
-      "cliptop": 0,
-      "clipright": 0,
-      "clipbottom": 0,
-      "warp": 266,
-      "warpmap": 266,
-      "warpx": 481,
-      "warpy": 142,
-      "nohit": 0
-    }
-  ]
+   "sprites" : [
+      {
+         "active" : true,
+         "clipbottom" : 0,
+         "clipleft" : 0,
+         "clipright" : 0,
+         "cliptop" : 0,
+         "fixed" : true,
+         "frame" : 3,
+         "hard" : 0,
+         "id" : 1,
+         "nohit" : 0,
+         "que" : 0,
+         "script" : "",
+         "seq" : 428,
+         "size" : 100,
+         "type" : 1,
+         "warp" : 266,
+         "warpmap" : 266,
+         "warpx" : 481,
+         "warpy" : 142,
+         "x" : 287,
+         "y" : 281
+      },
+      {
+         "active" : true,
+         "clipbottom" : 0,
+         "clipleft" : 0,
+         "clipright" : 0,
+         "cliptop" : 0,
+         "desc" : null,
+         "fixed" : false,
+         "frame" : 1,
+         "hard" : 0,
+         "id" : 2,
+         "nohit" : 0,
+         "que" : 0,
+         "script" : "bar-e",
+         "seq" : 173,
+         "size" : 100,
+         "type" : 1,
+         "warp" : 0,
+         "warpmap" : 0,
+         "warpx" : 0,
+         "warpy" : 0,
+         "x" : 342,
+         "y" : 74
+      }
+   ]
 }
