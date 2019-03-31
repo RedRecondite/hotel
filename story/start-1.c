@@ -21,7 +21,7 @@ void click ( void )
   reset_timer();
   fill_screen(0);
   //put dink in this room
-  &player_map = 335;
+  &player_map = 334;
 
   //make dink
   sp_x(1, 490);
