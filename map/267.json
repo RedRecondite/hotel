@@ -229,7 +229,7 @@
          "id" : 10,
          "nohit" : 0,
          "que" : 0,
-         "script" : "en-pill",
+         "script" : "blank",
          "seq" : 131,
          "size" : 100,
          "type" : 1,
