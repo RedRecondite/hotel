@@ -108,7 +108,7 @@
          "id" : 5,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "npc-con1",
          "seq" : 371,
          "size" : 100,
          "type" : 1,
