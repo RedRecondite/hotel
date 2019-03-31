@@ -1,0 +1,50 @@
+{
+  "sprites": [
+    {
+      "id": 1,
+      "fixed": true,
+      "active": true,
+      "x": 454,
+      "y": 186,
+      "seq": 32,
+      "frame": 9,
+      "type": 1,
+      "size": 100,
+      "script": "",
+      "que": 600,
+      "hard": 1,
+      "clipleft": 0,
+      "cliptop": 0,
+      "clipright": 0,
+      "clipbottom": 0,
+      "warp": 0,
+      "warpmap": 0,
+      "warpx": 0,
+      "warpy": 0,
+      "nohit": 0
+    },
+    {
+      "id": 2,
+      "fixed": true,
+      "active": true,
+      "x": 254,
+      "y": 589,
+      "seq": 32,
+      "frame": 9,
+      "type": 1,
+      "size": 100,
+      "script": "",
+      "que": 600,
+      "hard": 1,
+      "clipleft": 0,
+      "cliptop": 0,
+      "clipright": 0,
+      "clipbottom": 0,
+      "warp": 0,
+      "warpmap": 0,
+      "warpx": 0,
+      "warpy": 0,
+      "nohit": 0
+    }
+  ]
+}

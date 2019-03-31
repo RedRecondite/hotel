@@ -1,0 +1,27 @@
+{
+  "sprites": [
+    {
+      "id": 1,
+      "fixed": true,
+      "active": true,
+      "x": 287,
+      "y": 281,
+      "seq": 428,
+      "frame": 3,
+      "type": 1,
+      "size": 100,
+      "script": "",
+      "que": 0,
+      "hard": 0,
+      "clipleft": 0,
+      "cliptop": 0,
+      "clipright": 0,
+      "clipbottom": 0,
+      "warp": 266,
+      "warpmap": 266,
+      "warpx": 481,
+      "warpy": 142,
+      "nohit": 0
+    }
+  ]
+}
