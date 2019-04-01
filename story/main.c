@@ -28,6 +28,7 @@ void main()
   make_global_int("&magic_cost", 0);
   make_global_int("&save_x", 0);
   make_global_int("&save_y", 0);
+  make_global_int("&story", 0);
 
   //load SOUNDS
   load_sound("QUACK.WAV", 1);
