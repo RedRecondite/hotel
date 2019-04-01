@@ -24,8 +24,8 @@ void click ( void )
   &player_map = 334;
 
   //make dink
-  sp_x(1, 490);
-  sp_y(1, 312);
+  sp_x(1, 371);
+  sp_y(1, 399);
   sp_base_walk(1, 70);
   sp_base_attack(1, 100);
   sp_dir(1, 8);
@@ -39,8 +39,8 @@ void click ( void )
   arm_weapon();
 
   //status bar
-  &update_status = 1;
-  draw_status();
+  //&update_status = 1;
+  //draw_status();
 
   kill_this_task();
 }
