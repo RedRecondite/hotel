@@ -716,7 +716,7 @@
          "id" : 31,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "npc-girl",
          "seq" : 331,
          "size" : 72,
          "type" : 1,
