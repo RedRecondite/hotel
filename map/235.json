@@ -500,7 +500,7 @@
          "id" : 22,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "chst-01",
          "seq" : 175,
          "size" : 100,
          "type" : 1,
