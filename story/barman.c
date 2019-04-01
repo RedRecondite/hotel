@@ -27,7 +27,7 @@ void main(void)
   say_stop_npc("`5Hahahaha!", &barman1);
   say_stop_npc("`5Shit.", &barman1);
   wait(150);
-  say_stop_npc("`5You laughed! That makes me the winner.", &current_sprite);
+  say_stop_npc("`2You laughed! That makes me the winner.", &current_sprite);
   wait(400);
   say_stop_npc("`2Yo mama has green hair and thinks she's a tree!", &current_sprite);
   wait(150);
