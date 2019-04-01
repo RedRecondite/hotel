@@ -876,7 +876,7 @@
          "id" : 38,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "barman",
          "seq" : 381,
          "size" : 100,
          "type" : 1,
