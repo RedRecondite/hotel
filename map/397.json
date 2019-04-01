@@ -492,7 +492,7 @@
          "id" : 21,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "stalker",
          "seq" : 221,
          "size" : 100,
          "type" : 1,
