@@ -1134,7 +1134,7 @@
          "id" : 48,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "sign-d",
          "seq" : 186,
          "size" : 100,
          "type" : 1,
