@@ -452,7 +452,7 @@
          "id" : 20,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "bottles-1",
          "seq" : 64,
          "size" : 100,
          "type" : 1,
