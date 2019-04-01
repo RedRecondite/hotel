@@ -294,7 +294,7 @@
          "id" : 13,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "item-pig",
          "seq" : 446,
          "size" : 100,
          "type" : 1,
