@@ -1103,6 +1103,30 @@
          "warpy" : 0,
          "x" : 374,
          "y" : 97
+      },
+      {
+         "active" : true,
+         "clipbottom" : 0,
+         "clipleft" : 0,
+         "clipright" : 0,
+         "cliptop" : 0,
+         "desc" : null,
+         "fixed" : false,
+         "frame" : 1,
+         "hard" : 1,
+         "id" : 47,
+         "nohit" : 0,
+         "que" : 0,
+         "script" : "en-pill",
+         "seq" : 131,
+         "size" : 100,
+         "type" : 1,
+         "warp" : 0,
+         "warpmap" : 0,
+         "warpx" : 0,
+         "warpy" : 0,
+         "x" : 308,
+         "y" : 127
       }
    ]
 }
