@@ -476,7 +476,7 @@
          "id" : 21,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "fp-1",
          "seq" : 64,
          "size" : 100,
          "type" : 1,
