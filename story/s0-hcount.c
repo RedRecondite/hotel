@@ -31,7 +31,7 @@ void talk(void)
  if (&result == 2)
  {
   say_Stop("`3I'm not sure why you've never heard of us..", &crap);
-  say_stop("`3We generate quit a healthy amount of business for travellers in this area!", &crap);
+  say_stop("`3We generate quite a healthy amount of business for travellers in this area!", &crap);
   wait(200);
   say_stop("Interesting..", 1);
  }
