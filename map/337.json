@@ -1524,7 +1524,7 @@
          "hard" : 0,
          "id" : 64,
          "nohit" : 0,
-         "que" : 0,
+         "que" : 300,
          "script" : "",
          "seq" : 82,
          "size" : 100,
