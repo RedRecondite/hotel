@@ -1548,7 +1548,7 @@
          "hard" : 1,
          "id" : 65,
          "nohit" : 1,
-         "que" : 0,
+         "que" : 300,
          "script" : "",
          "seq" : 90,
          "size" : 100,
