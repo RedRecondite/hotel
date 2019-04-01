@@ -5,6 +5,5 @@ void main(void)
  &y -= 50;
  int &crap;
  
- &y = sp_y(&current_sprite, -1);
  &crap = create_sprite(&x, &y, 0, 381, 1);
 }
