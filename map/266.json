@@ -588,7 +588,7 @@
          "id" : 26,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "s0-hcount",
          "seq" : 64,
          "size" : 100,
          "type" : 1,
