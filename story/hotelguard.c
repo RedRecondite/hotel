@@ -6,7 +6,10 @@ void main
  goto end;
  }
 
- move_stop(1, 8, 231)
+ move_stop(1, 8, 231, 1)
+ sp_y(1, 231)
+ sp_dir(1, 6)
+ wait(1)
  freeze(1);
  freeze(&custom_sprite);
  say_stop("What are you doing here?", 1);
