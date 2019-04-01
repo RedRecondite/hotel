@@ -1,4 +1,4 @@
-void main
+void main(void)
 {
-playmidi("102.mid")
+playmidi("102.mid");
 }
