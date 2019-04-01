@@ -1,7 +1,7 @@
 //he is intro boi
 void main
 {
- if (&story == 1)
+ if (&story >= 1)
  {
  goto end;
  }
