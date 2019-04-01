@@ -24,6 +24,6 @@ void main
 
 	if (&rand == 5)
 	{
-		 playmidi("ranmar5.mid")
+		 playmidi("104.mid")
 	}
 }
