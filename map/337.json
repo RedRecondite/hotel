@@ -1620,7 +1620,7 @@
          "hard" : 1,
          "id" : 68,
          "nohit" : 0,
-         "que" : 0,
+         "que" : 50,
          "script" : "ppotion",
          "seq" : 57,
          "size" : 100,
