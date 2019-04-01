@@ -3,7 +3,6 @@ void main(void)
  int &barman1 = create_sprite(344, 176, 0, 417, 4);
  sp_script(&barman1 "barman1");
  {
-  wait(3000);
   say_stop_npc("`2My mama can cook wonderful dishes of food.", &current_sprite);
   wait(200);
   say_stop_npc("`5Oh yeah? My mama can make her dishes look like crap.", &barman1);
