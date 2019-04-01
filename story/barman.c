@@ -1,6 +1,6 @@
 void main(void)
 {
- int &barman1 = create_sprite(82, 303, 0, 417, 4);
+ int &barman1 = create_sprite(344, 176, 0, 417, 4);
  sp_script(&barman1 "barman1");
  {
   wait(3000);
