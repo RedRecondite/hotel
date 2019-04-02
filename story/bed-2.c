@@ -1,7 +1,7 @@
 void main(void)
 {
 //if you add a dream, raise maxdreams by 1 so it will cycle properly
-int &maxdreams = 2;
+int &maxdreams = 3;
 int &num = random(&maxdreams, 0);
 }
 
@@ -58,10 +58,24 @@ say_stop("Jeez, this bed makes me have some screwed up dreams...", 1);
 wait(100);
 }
 
-//Dream 3 (placeholder, add your dream here)
+//Dream 3
 if (&num == 2)
 {
-
+  wait(500);
+  playsound(1, 12050, 10000, 1, 0);
+  say_stop_xy("`4QUUUUAAAAAAAAAAAAACK", 1, 30);
+  wait(500);
+  int &crap = create_sprite(464,180, 3, 21, 1);
+  &temphold = &crap;
+  sp_basewalk(&temphold, 20);
+  sp_speed(&temphold, 2);
+  sp_script(&temphold, "die5");
+  fade_up();
+  wait(1000);
+  say_stop("I don't think I want to know where you came from...", 1);
+  wait(100);
+  say_stop("0QUACK!", &temphold);
+  wait(200);
 }
 
 //etc...
