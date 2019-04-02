@@ -1,10 +1,8 @@
 void talk
 {
 freeze(1)
-say_stop("`%Hello, I am the dude who will be here taking up space until we", &current_sprite);
-wait(250)
-say_stop("`%can decide on what the story and gameplay is going to be!", &current_sprite);
-wait(250)
-say_stop("Wow, I sure hope you stop loitering in my hotel soon. I already hate you.", 1);
-unfreeze(1)
+say_stop("`%Oh my, it's Dink in the flesh!", &current_sprite);
+wait(100)
+say_stop("`%Why don't you look around. I'm sure you'll find something NICE.", &current_sprite);
+unfreeze(1);
 }
