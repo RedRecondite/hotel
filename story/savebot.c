@@ -27,6 +27,7 @@ void talk( void )
 		unfreeze(1);
 		return;
 	}
+
 	choice_start();
 	"&savegameinfo"
 	"&savegameinfo"
