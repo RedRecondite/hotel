@@ -67,6 +67,7 @@ void talk
 
 void explode
 {
+	wait(500);
 	playsound(5, 4000, 0, &current_sprite, 1);  //why doesn't this play?
 	int &x = sp_x(&current_sprite, -1);
 	int &x2 = sp_x(&current_sprite, -1);
