@@ -15,6 +15,7 @@ choice_start();
 "Bluedy's Biography"
 "Cooking with Ex-Chefevn, volume 13"
 "The Story of TheNewGuy"
+"Pitch Black, Unmarked Book"
 "Reading is for losers"
 choice_end();
 if (&result == 1)
@@ -69,6 +70,19 @@ wait(100);
 say_stop("The last page says that the rest will be filled in later.", 1);
 wait(500);
 say_stop("What a pointless book...", 1);
+}
+
+if (&result == 8)
+{
+say_stop("The hell is this...?", 1);
+wait(100)
+say_stop("Wh-why is that...quadrupedal...pink...horse??? Why--", 1);
+wait(100)
+say_stop("OH GOD, NO!", 1);
+wait(100)
+say_stop("What kind of sick degenerate keeps this stuff around!?", 1);
+wait(750)
+say_stop("...I like it.", 1);
 }
 
 unfreeze(&current_sprite);
