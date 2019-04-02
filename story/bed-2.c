@@ -52,11 +52,6 @@ wait(300);
 say_stop_xy("`4And don't let anyone ever tell you otherwise...", 20, 30);
 wait(200);
 }
-fade_up();
-wait(200);
-say_stop("Jeez, this bed makes me have some screwed up dreams...", 1);
-wait(100);
-}
 
 //Dream 3
 if (&num == 2)
@@ -80,6 +75,12 @@ if (&num == 2)
 
 //etc...
 
+fade_up();
+wait(200);
+say_stop("Jeez, this bed makes me have some screwed up dreams...", 1);
+wait(100);
+
+}
 
 //2nd choice (unfunny joke)
 if (&result == 2)
