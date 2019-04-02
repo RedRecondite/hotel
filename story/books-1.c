@@ -12,6 +12,7 @@ choice_start();
 "Robj's Adventure"
 "Encyclopedia of Tal"
 "The Ins and Outs of Ethel"
+"Bluedy's Biography"
 "Reading is for losers"
 choice_end();
 if (&result == 1)
@@ -37,6 +38,15 @@ if (&result == 4)
 say_stop("It seems this book was written by Quackers.", 1);
 wait(100);
 say_stop("I don't think I'm going to read it.", 1);
+}
+
+if (&result == 5)
+{
+say_stop("A book about someone called Bluedy.", 1);
+wait(100);
+say_stop("The critics' quotes on the cover all give it five stars out of five.", 1);
+wait(100);
+say_stop("Why, this must be the greatest book ever made!", 1);
 }
 
 unfreeze(&current_sprite);
