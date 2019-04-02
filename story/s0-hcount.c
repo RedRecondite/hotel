@@ -27,6 +27,10 @@ void talk(void)
   say_stop("`3This is the Dink Hotel!", &crap);
   wait(200);
   say_stop("Well, that's cool. I have a hotel named after me.", 1);
+  wait(200);
+  say_stop("`3That's right. It's the perfect place to relax.", &crap);
+  wait(200);
+  say_stop("`3So go ahead and take a look around. Outside too. Enjoy yourself.", &crap);
  }
  if (&result == 2)
  {
