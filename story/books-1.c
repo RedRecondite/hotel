@@ -11,6 +11,7 @@ choice_start();
 "The History of Dink Smallwood"
 "Robj's Adventure"
 "Encyclopedia of Tal"
+"The Ins and Outs of Ethel"
 "Reading is for losers"
 choice_end();
 if (&result == 1)
@@ -22,12 +23,20 @@ if (&result == 2)
 {
 say_stop("I'm trying to read it, but it seems it's not a book, it's a cookie.", 1);
 }
+
 if (&result == 3)
 {
 say_stop("There are no words in this book.", 1);
 wait(100);
 say_stop("Only lots and lots of pictures of ducks with bananas.", 1);
 wait(100);
+}
+
+if (&result == 4)
+{
+say_stop("It seems this book was written by Quackers.", 1);
+wait(100);
+say_stop("I don't think I'm going to read it.", 1);
 }
 
 unfreeze(&current_sprite);
