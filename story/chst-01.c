@@ -24,9 +24,17 @@ void hit ( void )
   &magic += 20;
   &defense += 20;
   //hellfire
+  int &temp = count_item("item-sfb");
+  if (&temp == 0)
+  {
   add_magic("item-sfb", 437, 2);
+  }
   //lightsword
+  int &temp2 = count_item("item-sw3");
+  if (&temp == 0)
+  {
   add_item("item-sw3", 438, 21);
+  }
   &cur_magic = 1;
   arm_magic();
   &cur_weapon = 2;
