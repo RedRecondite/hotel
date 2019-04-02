@@ -11,14 +11,14 @@ void main( void )
   sp_range(&current_sprite, 45);
   sp_distance(&current_sprite, 50);
   sp_timing(&current_sprite, 33);
-  sp_exp(&current_sprite, 2600);
+  sp_exp(&current_sprite, 3000);
 
   sp_base_walk(&current_sprite, 270);
   sp_base_attack(&current_sprite, 710);
-  sp_defense(&current_sprite, 18);
-  sp_strength(&current_sprite, 25);
-  sp_touch_damage(&current_sprite, 14);
-  sp_hitpoints(&current_sprite, 310);
+  sp_defense(&current_sprite, 30);
+  sp_strength(&current_sprite, 30);
+  sp_touch_damage(&current_sprite, 18);
+  sp_hitpoints(&current_sprite, 350);
   
   sp_target(&current_sprite, 1);
   //  Attack right away.
