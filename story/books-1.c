@@ -14,6 +14,7 @@ choice_start();
 "The Ins and Outs of Ethel"
 "Bluedy's Biography"
 "Cooking with Ex-Chefevn, volume 13"
+"The Story of TheNewGuy"
 "Reading is for losers"
 choice_end();
 if (&result == 1)
@@ -49,6 +50,7 @@ say_stop("The critics' quotes on the cover all give it five stars out of five.",
 wait(100);
 say_stop("Why, this must be the greatest book ever made!", 1);
 }
+
 if (&result == 6)
 {
 say_stop("A cooking pamphlet... Hey!", 1);
@@ -56,6 +58,17 @@ wait(100);
 say_stop("Someone tore the recipes out, this is just the front cover.", 1);
 wait(100);
 say_stop("And a picture of a delicious looking cake-flavored pizza pie.", 1);
+}
+
+if (&result == 7)
+{
+say_stop("There's just a lot of blank pages.", 1);
+wait(100);
+say_stop("Wait...", 1);
+wait(100);
+say_stop("The last page says that the rest will be filled in later.", 1);
+wait(500);
+say_stop("What a pointless book...", 1);
 }
 
 unfreeze(&current_sprite);
@@ -78,7 +91,7 @@ void hit(void)
   {
     say("Knowledge has empowered me! I think.", 1);
   }
-  if (&mcrap == 3)
+  if (&mcrap == 4)
   {
      say("Book it, books!", 1);
   }
