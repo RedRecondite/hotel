@@ -59,7 +59,7 @@
          "id" : 3,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "wizard",
          "seq" : 581,
          "size" : 100,
          "type" : 1,
