@@ -109,7 +109,7 @@
          "id" : 5,
          "nohit" : 1,
          "que" : 0,
-         "script" : "",
+         "script" : "outsidemid",
          "seq" : 66,
          "size" : 100,
          "type" : 1,
