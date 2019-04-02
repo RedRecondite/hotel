@@ -11,7 +11,7 @@ freeze(1);
 freeze(&current_sprite);
 say_stop("Mr. SmileStein!?", 1);
 wait(100);
-say_stop(`9Uh, no. Do all farmers look alike to you?", &current_sprite);
+say_stop("`9Uh, no. Do all farmers look alike to you?", &current_sprite);
 wait(100);
 say_stop("Uh ...", 1);
 wait(100);
