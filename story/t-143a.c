@@ -1,5 +1,5 @@
 //script for burnable tree to spawn a staircase access for screen 143
-
+//not used due to lack of screen 143 during the D-Mod Jam development phase countdown
 void main( void )
 {
   preload_seq(167);
