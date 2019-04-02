@@ -325,7 +325,7 @@
          "id" : 14,
          "nohit" : 0,
          "que" : 0,
-         "script" : "con-stg",
+         "script" : "con-tbl",
          "seq" : 87,
          "size" : 100,
          "type" : 1,
