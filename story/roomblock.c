@@ -2,11 +2,12 @@ void main(void)
 {
 sp_nodraw(&current_sprite, 1);
 sp_hard(&current_sprite, 1);
-draw_hard_sprite(&current)_sprite);
 if (&story < 2)
 {
 sp_touch_damage(&current_sprite, -1);
 }
+wait(1);
+draw_hard_sprite(&current)_sprite);
 }
 
 void touch(void)
