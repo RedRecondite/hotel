@@ -1,0 +1,22 @@
+void main(void)
+{
+sp_nodraw(&current_sprite, 1);
+sp_hard(&current_sprite, 1);
+if (&story < 4)
+{
+sp_touch_damage(&current_sprite, -1);
+}
+wait(1);
+draw_hard_sprite(&current_sprite);
+}
+
+void touch(void)
+{
+freeze(1);
+sp_touch(damage(&current_sprite, 0);
+move(1, 8, 331, 0);
+say("I can't go here for plot reasons!", 1);
+unfreeze(1);
+wait(500);
+sp_touch(damage(&current_sprite, -1);
+}
