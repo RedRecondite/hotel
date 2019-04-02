@@ -12,7 +12,7 @@ sp_touch_damage(&current_sprite, 0);
 move(1, 2, 285, 0);
 say("I need a claw sword to cut this!", 1);
 wait(1);
-sp_touch(damage(&current_sprite, 1);
+sp_touch_damage(&current_sprite, 1);
 }
 
 void hit(void)
