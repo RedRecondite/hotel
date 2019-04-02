@@ -43,7 +43,7 @@ void hit(void)
       sp_base_attack(&crap, 710);
       sp_speed(&crap, 1);
       
-      move_stop(&crap, 7,250, 1);
+      move_stop(&crap, 7,350, 1);
       
       say_stop("`0Hey Cookie the Animal!!", &temphold);
       wait(200);
