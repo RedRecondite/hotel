@@ -3,11 +3,11 @@
 void main()
 {
   //dink stats
-  make_global_int("&strength", 1);
-  make_global_int("&defense", 0);
-  make_global_int("&magic", 0);
-  make_global_int("&lifemax", 10); 
-  make_global_int("&life", 10);
+  make_global_int("&strength", 3);
+  make_global_int("&defense", 2);
+  make_global_int("&magic", 1);
+  make_global_int("&lifemax", 25); 
+  make_global_int("&life", 25);
   make_global_int("&exp",0);
   make_global_int("&gold", 0);
   make_global_int("&level", 1);
