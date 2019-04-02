@@ -45,7 +45,78 @@ if (get_sprite_with_this_brain(9, &current_sprite) == 0)
 
   screenlock(0);
   playsound(43, 22050,0,0,0);
-
+if (&story < 4)
+{
+&story = 4;
+}
+freeze(1);
+&mcounter = create_sprite(320, -50, 9, 371, 1);
+freeze(&mcounter);
+sp_base_walk(&mcounter, 370);
+sp_speed(&mcounter, 2);
+move_stop(&mcounter, 2, 100, 1);
+say_stop("`3Ok, we're ready for all of ...", &mcounter);
+say_stop("`3... you.", &mcounter);
+wait(100);
+say_stop("Dude, what is going on?", 1);
+wait(100);
+say_stop("`3I came down to gather the cosplayers.", &mcounter);
+say_stop("`3We're ready for the parade.", &mcounter);
+wait(100);
+say_stop("What kind of monster is a cosplayer?", 1);
+wait(100);
+say_stop("I just killed a bunch of my doppelgangers down here.", 1);
+wait(100);
+say_stop("`3Don't you mean 'dopplegangers'?", &mcounter);
+wait(100);
+say_stop("`3Anyway, cosplayers are people dress up as their favorite hero characters.", &mcounter);
+say_stop("`3I know what you're thinking, and it isn't sexual at all.", &mcounter);
+wait(100);
+say_stop("`3This is the Dink Smallwood convention.", &mcounter);
+say_stop("`3Where we meet up and buy overpriced swag.", &mcounter);
+wait(100);
+say_stop("...", 1);
+wait(100);
+say_stop("`3Now, you said you killed them all?", &mcounter);
+say_stop("`3Is that why there is so much blood?", &mcounter);
+wait(100);
+choice_start();
+"Admit the terrible truth"
+"Lie. Lie with abandon"
+choice_end();
+if (&result == 1)
+{
+say_stop("Uh, yes.", 1);
+wait(100);
+say_stop("I thought they were monsters.", 1);
+wait(100);
+say_stop("`3And you're the real Dink Smallwood?", &mcounter);
+wait(100);
+say_stop("Yep, that's me.", 1);
+wait(100);
+say_stop("`3I'm such a fan. You are a legend.", &mcounter);
+wait(100);
+say_stop("`3Don't worry, let's mop this place up.", &mcounter);
+}
+if (&result == 2)
+{
+say_stop("Uh, no.", 1);
+wait(100);
+say_stop("A doppelganger monster got loose down here.", 1);
+say_stop("It killed and ate everyone.", 1);
+wait(100);
+say_stop("`3Are you the real Dink Smallwood?", &mcounter);
+wait(100);
+say_stop("No, my name is Link, er Bigwoood.", 1);
+wait(100);
+say_stop("`3Ugh.", &mcounter);
+wait(100);
+say_stop("`3I hate volunteering at cons, this happens every time.", &mcounter);
+}
+move_stop(&mcounter, 8, -50, 1);
+sp_active(&mcounter, 0)
+say_stop_xy("`%THE END", 20, 300);
+unfreeze(1);
  }
 
   int &hold = sp_editor_num(&current_sprite);
