@@ -46,7 +46,7 @@ external("emake","medium");
 
   int &hold = sp_editor_num(&current_sprite);
   if (&hold != 0)
-  editor_type(&hold, 6); 
+  editor_type(&hold, 1); 
 
 if (get_sprite_with_this_brain(9, &current_sprite) == 0)
  {
