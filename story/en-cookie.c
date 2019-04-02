@@ -15,9 +15,9 @@ void main( void )
 
   sp_base_walk(&current_sprite, 270);
   sp_base_attack(&current_sprite, 710);
-  sp_defense(&current_sprite, 4);
-  sp_strength(&current_sprite, 20);
-  sp_touch_damage(&current_sprite, 8);
+  sp_defense(&current_sprite, 18);
+  sp_strength(&current_sprite, 25);
+  sp_touch_damage(&current_sprite, 14);
   sp_hitpoints(&current_sprite, 310);
   
   sp_target(&current_sprite, 1);
