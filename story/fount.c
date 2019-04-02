@@ -1,6 +1,6 @@
 void talk( void )
 {
-say("Ah, water. Pretty sure I couldn't live without this stuff.",&current_sprite);
+say("Ah, water. Pretty sure I couldn't live without this stuff.", 1);
 &life += 1;
 if (&life > &lifemax)
 {
