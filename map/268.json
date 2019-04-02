@@ -301,7 +301,7 @@
          "id" : 13,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "caveblock",
          "seq" : 93,
          "size" : 100,
          "type" : 1,
