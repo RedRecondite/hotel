@@ -12,5 +12,5 @@ say("`5Ew, you smell like pigs.", &current_sprite);
 
 void hit(void)
 {
-say("`5How does this smell?", &current_sprite);
+say("How does this smell?", 1);
 }
