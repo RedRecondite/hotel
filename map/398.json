@@ -300,7 +300,7 @@
          "hard" : 1,
          "id" : 13,
          "nohit" : 1,
-         "que" : 0,
+         "que" : -100,
          "script" : "",
          "seq" : 66,
          "size" : 100,
