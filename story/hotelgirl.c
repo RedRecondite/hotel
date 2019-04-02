@@ -11,6 +11,7 @@ freeze(&current_sprite);
 freeze(1);
 choice_start();
 "Say hello"
+"Enquire about the hotel"
 "Not worth my time"
 choice_end();
 if (&result == 1)
@@ -32,6 +33,20 @@ wait(100);
 say_stop("`5You should feed it.", &current_sprite);
 wait(100);
 say_stop("Oh boy, I can't wait.", 1);
+}
+if (&result == 2)
+{
+say_stop("So... what is this place, anyway?", 1);
+wait(100);
+say_stop("`5Welcome to the Dink Hotel.", &current_sprite);
+wait(100);
+say_stop("`5It's such a lovely place, and there's plenty of room.", &current_sprite);
+wait(100);
+say_stop("`5Any time of the year, you can find it here.", &current_sprite);
+wait(100);
+say_stop("`5Also, you can check out any time, but you can't quite leave.", &current_sprite);
+wait(500);
+say_stop("Oh...well, it sounds like this could be heaven or this could be Hell.", 1);
 }
 unfreeze(&current_sprite);
 unfreeze(1);
