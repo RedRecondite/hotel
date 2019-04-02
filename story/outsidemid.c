@@ -9,12 +9,12 @@ void main
 
 	if (&rand == 2)
 	{
-		 playmidi("11.mid")
+		 playmidi("106.mid")
 	}
 
 	if (&rand == 3)
 	{
-		 playmidi("16.mid")
+		  playmidi("16.mid")
 	}
 
 	if (&rand == 4)
