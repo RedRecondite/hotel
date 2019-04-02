@@ -3,7 +3,7 @@ void main(void)
 {
 sp_brain(&current_sprite, 9);
 sp_base_walk(&current_sprite, 340);
-sp_speed(&current_sprite, 1);
+sp_speed(&current_sprite, 3);
 freeze(&current_sprite);
 wait(1000);
 move_stop(&current_sprite, 2, 500, 1);
