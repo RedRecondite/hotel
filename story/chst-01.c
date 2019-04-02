@@ -33,7 +33,7 @@ void hit ( void )
   arm_weapon();
   draw_status();
   //INCREMENTS STORY
-  &story = 2;
+  &story = 3;
 
   sp_seq(&current_sprite, 175);
   sp_script(&current_sprite, "");
