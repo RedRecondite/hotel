@@ -43,7 +43,7 @@ void talk( void )
 		
 	unfreeze(1);
 		
-	if (&result  11)
+	if (&result < 11)
 	{
 		save_game(&result);
 		say_xy("`%Game saved", 1, 30);
