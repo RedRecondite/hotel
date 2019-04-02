@@ -1,3 +1,10 @@
+void main(void)
+{
+sp_base_walk(&current_sprite, 580);
+sp_speed(&current_sprite, 1);
+sp_brain(&current_sprite, 16);
+}
+
 void talk(void)
 {
 freeze(1);
@@ -14,7 +21,8 @@ wait(100);
 say_stop("!", 1);
 wait(100);
 say_stop("`%This D-Mod is dedicated to Dukie.", &current_sprite);
-say_stop("`%Dukie was a Dink Smallwood fan from the old, old days.", &current_sprite);
+say_stop("`%Dukie was a Dink Smallwood fan from the old, old days around 1998.", &current_sprite);
+wait(100);
 say_stop("`%He created a D-Mod called Valley of the Talking Trees.", &current_sprite);
 wait(100);
 say_stop("That one had the duck from Friends?", 1);
@@ -39,8 +47,6 @@ wait(100);
 say_stop("`%He is missed.", &current_sprite);
 wait(100);
 say_stop("I miss him, too.", 1);
-wait(100);
-say_stop("`%He is missed.", &current_sprite);
 wait(100);
 say_stop("`%One last thing - the title screen song.", &current_sprite);
 wait(100);
