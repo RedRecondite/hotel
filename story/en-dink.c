@@ -49,6 +49,7 @@ if (&story < 4)
 {
 &story = 4;
 }
+script_attach(1000);
 freeze(1);
 &mcounter = create_sprite(320, -50, 9, 371, 1);
 freeze(&mcounter);
@@ -117,6 +118,7 @@ move_stop(&mcounter, 8, -50, 1);
 sp_active(&mcounter, 0)
 say_stop_xy("`%THE END", 20, 300);
 unfreeze(1);
+kill_this_task();
  }
 
   int &hold = sp_editor_num(&current_sprite);
