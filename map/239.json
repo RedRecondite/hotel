@@ -397,7 +397,7 @@
          "id" : 17,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "caveent",
          "seq" : 89,
          "size" : 100,
          "type" : 1,
