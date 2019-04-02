@@ -39,6 +39,15 @@ sp_target(&current_sprite, &enemy_sprite);
 
 void die( void )
 {
+
+&save_x = sp_x(&current_sprite, -1);
+&save_y = sp_y(&current_sprite, -1);
+external("emake","medium");
+
+  int &hold = sp_editor_num(&current_sprite);
+  if (&hold != 0)
+  editor_type(&hold, 6); 
+
 if (get_sprite_with_this_brain(9, &current_sprite) == 0)
  {
   //no more brain 9 monsters here, lets unlock the screen
@@ -70,7 +79,7 @@ say_stop("I just killed a bunch of my doppelgangers down here.", 1);
 wait(100);
 say_stop("`3Don't you mean 'dopplegangers'?", &mcounter);
 wait(100);
-say_stop("`3Anyway, cosplayers are people dress up as their favorite hero characters.", &mcounter);
+say_stop("`3Anyway, cosplayers are people who dress up as their favorite hero characters.", &mcounter);
 say_stop("`3I know what you're thinking, and it isn't sexual at all.", &mcounter);
 wait(100);
 say_stop("`3This is the Dink Smallwood convention.", &mcounter);
@@ -120,14 +129,6 @@ say_stop_xy("`%THE END", 20, 300);
 unfreeze(1);
 kill_this_task();
  }
-
-  int &hold = sp_editor_num(&current_sprite);
-  if (&hold != 0)
-  editor_type(&hold, 6); 
-
-&save_x = sp_x(&current_sprite, -1);
-&save_y = sp_y(&current_sprite, -1);
-external("emake","medium");
 }
 
 void attack( void )
