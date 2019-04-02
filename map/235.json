@@ -524,7 +524,7 @@
          "id" : 23,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "bed-2",
          "seq" : 64,
          "size" : 100,
          "type" : 1,
