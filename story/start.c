@@ -5,6 +5,7 @@ void main( void )
   fill_screen(255);
   //unlock screen if dink died in a screenlocked room
   screenlock(0);
+  playmidi("3.mid");
 
   //mouse pointer
   sp_seq(1, 0);
