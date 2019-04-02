@@ -38,6 +38,8 @@ void click ( void )
   &cur_weapon = 1;
   arm_weapon();
 
+  playmidi("100");
+
   //status bar
   //&update_status = 1;
   //draw_status();
