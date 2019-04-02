@@ -12,12 +12,13 @@ say("I hate you, sack of feed!", 1);
 
 void talk(void)
 {
-freeze(1);
+//removing the freezing because it can lock up the game if you pick it up and talk to it at the same time
+//freeze(1);
 say_stop("*inhales*", 1);
 say_stop("Mmm, the smell of pig feed. Makes me hungry.", 1);
 wait(500);
 say_stop("...I hope no one heard that.", 1);
-unfreeze(1);
+//unfreeze(1);
 }
 
 
