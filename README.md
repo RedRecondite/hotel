@@ -36,6 +36,21 @@ Username                                                                        
 
 ## How do I play this?
 
-Download Dink Smallwood.
+Play online using one of the web-based version of Dink Smallwood:
 
-Download The Dink Hotel.
+* [Dink Smallwood HD Online](https://www.rtsoft.com/web/dink/?dmod=dinknetwork.com/download/the_dink_hotel-v1_00.dmod)
+* [FreeDink Online](https://play.freedink.org/?dmod=dinknetwork.com/download/the_dink_hotel-v1_00.dmod)
+
+Or:
+
+* Download and Install [Dink Smallwood HD](https://www.dinknetwork.com/file/dink_smallwood_hd/)
+* Start Dink Smallwood HD
+* Click New Add-On Quests
+* Select 'Dink Hotel (The)'
+
+Or:
+
+* Download and install [FreeDink](https://www.gnu.org/software/freedink/)
+* Download [The Dink Hotel](https://www.dinknetwork.com/file/the_dink_hotel/)
+* Install the .dmod file (usually by double-clicking)
+* Use DFArc to start the D-Mod titled "The Dink Hotel"
