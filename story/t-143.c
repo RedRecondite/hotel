@@ -66,7 +66,7 @@ void hit(void)
   if (get_sprite_with_this_brain(9, &current_sprite) != 0)
   {
     //no more brain 9 monsters here, lets unlock the screen
-    say_stop("`0We shall have our revenge.", &carp);
+    say_stop("`0We shall have our revenge.", &temphold);
   }
 
 }
