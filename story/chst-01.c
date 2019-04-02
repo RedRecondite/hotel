@@ -20,7 +20,16 @@ void hit ( void )
     }
   &save_x = sp_x(&current_sprite, -1);
   &save_y = sp_y(&current_sprite, -1);
-  external("make", "mgold");
+  &strength += 20;
+  &magic += 20;
+  &defense += 20;
+  //hellfire
+  add_magic("item-sfb", 437, 2);
+  //lightsword
+  add_item("item-sw3", 438, 8);
+  arm_magic();
+  arm_weapon();
+  draw_status();
 
   sp_seq(&current_sprite, 175);
   sp_script(&current_sprite, "");
