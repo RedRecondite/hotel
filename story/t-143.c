@@ -1,10 +1,9 @@
+//Script for a tree originally meant to be on screen 143. Modified for a tree on screen 
 void main(void)
 {
   int &crap;
   int &temphold = &current_sprite;
   sp_brain(&temphold, 0);
-  sp_pframe(&temphold, 2);
-  sp_frame(&temphold, 2);
 }
 
 void hit(void)
