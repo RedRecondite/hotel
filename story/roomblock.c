@@ -7,7 +7,7 @@ if (&story < 2)
 sp_touch_damage(&current_sprite, -1);
 }
 wait(1);
-draw_hard_sprite(&current)_sprite);
+draw_hard_sprite(&current_sprite);
 }
 
 void touch(void)
