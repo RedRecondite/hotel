@@ -132,7 +132,7 @@
          "id" : 6,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "conmusic",
          "seq" : 87,
          "size" : 100,
          "type" : 1,
