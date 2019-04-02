@@ -66,3 +66,8 @@ wait(100);
 unfreeze(&current_sprite);
 unfreeze(1);
 }
+
+void hit( void )
+{
+say("It's not truly a Dink Hotel until I've punched everything in here.", 1);
+}
