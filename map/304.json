@@ -205,7 +205,7 @@
          "id" : 9,
          "nohit" : 0,
          "que" : 0,
-         "script" : "",
+         "script" : "scroll",
          "seq" : 422,
          "size" : 100,
          "type" : 1,
