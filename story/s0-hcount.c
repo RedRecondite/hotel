@@ -60,7 +60,10 @@ void talk(void)
   say_Stop("`3Well, you know, it keeps our demand high, looks good for the books.", &crap);
   say_stop("`3Anyway, upstairs and to your right.", &crap);
   say_stop("Thanks..", 1);
+  if (&story < 2)
+  {
   &story = 2;
+  }
  }
  unfreeze(1);
 }
