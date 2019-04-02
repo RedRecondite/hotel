@@ -204,6 +204,19 @@ void explode
 	spray(&x2, &y2, &dir);
 	wait(1000);
 	//Dink says something witty here
+freeze(1);
+say_stop("Well, I, uh, that was something.", 1);
+wait(100);
+int &count = count_item("item-sw2");
+if (&count == 0)
+{
+add_item("item-sw2", 438, 20);
+wait(100);
+say_stop("Weird, that pig projectile pooped a claw sword into my backpack.", 1);
+wait(100);
+say_stop("Talk about convenient!", 1);
+}
+unfreeze(1);
 }
 
 void spray
