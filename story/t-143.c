@@ -5,7 +5,6 @@ void main(void)
   sp_brain(&temphold, 0);
   sp_pframe(&temphold, 2);
   sp_frame(&temphold, 2);
-  playmidi("denube.mid");
 }
 
 void hit(void)
@@ -14,7 +13,21 @@ void hit(void)
   {
     freeze(1);
       wait(400);
-      
+    choice_start()
+    set_y 240
+    title_start();
+      Are you sure you want to do that?
+      There is something strange about this tree.
+    title_end();
+    
+    "Trees must burn!"
+    "Maybe not"
+    
+  choice_end();
+  
+
+  if (&result == 1)
+  {
       preload_seq(271);
       preload_seq(273);
       preload_seq(277);
@@ -39,16 +52,24 @@ void hit(void)
       wait(200);
       say_stop("`0This Lumberjack wants to say hi.", &temphold);
       wait(500);
-      sp_dir(1, 2);
       say_stop("Uh-oh.", 1);
       unfreeze(1);
       
       unfreeze(&crap);
       
       sp_script(&crap, "en-cookie");
-    screenlock(1);
+      screenlock(1);
   }
-  say_stop("`0We shall have our revenge.", &carp);
+  if (&result == 2)
+  {
+  return;
+  }
+  if (get_sprite_with_this_brain(9, &current_sprite) != 0)
+  {
+    //no more brain 9 monsters here, lets unlock the screen
+    say_stop("`0We shall have our revenge.", &carp);
+  }
+
 }
 
 void talk(void)
@@ -56,7 +77,7 @@ void talk(void)
   freeze(1)
   say_stop("`0I am the best Tree", &temphold)
   wait(200)
-  say_stop("`0My home is on One-Four-Three", &temphold)  
+  say_stop("`0My home should be One-Four-Three", &temphold)  
   wait(200);
   say_stop("`0An eternal Meme.", &temphold)
   unfreeze(1);
