@@ -8,6 +8,7 @@ sp_brain(&current_sprite, 16);
 void talk(void)
 {
 freeze(1);
+freeze(&current_sprite);
 choice_start();
 "Talk to the wizard"
 "Walk away"
@@ -60,4 +61,5 @@ wait(100);
 say_stop("I have to agree!", 1);
 }
 unfreeze(1);
+unfreeze(&current_sprite);
 }
