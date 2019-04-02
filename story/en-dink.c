@@ -17,7 +17,7 @@ sp_defense(&current_sprite, 3);
 sp_strength(&current_sprite, 8);
 sp_touch_damage(&current_sprite, 5);
 sp_hitpoints(&current_sprite, 60);
-&mcounter = random(20,1);
+&mcounter = random(10,1);
 if (&mcounter == 1)
 {
 say("Hi!", &current_sprite);
