@@ -9,9 +9,9 @@ draw_hard_sprite(&current_sprite);
 void touch(void)
 {
 sp_touch_damage(&current_sprite, 0);
-move(1, 2, 231, 0);
+move(1, 2, 285, 0);
 say("I need a claw sword to cut this!", 1);
-wait(500);
+wait(1);
 sp_touch(damage(&current_sprite, 1);
 }
 
