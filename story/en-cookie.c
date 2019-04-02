@@ -152,7 +152,7 @@ void die( void )
 {
   &save_x = sp_x(&current_sprite, -1);
   &save_y = sp_y(&current_sprite, -1);
-  external("emake","exsam");
+  external("emake","xlarge");
   if (screenlock(-1) == 1)
   {
     //no more brain 9 monsters here, lets unlock the screen
