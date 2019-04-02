@@ -26,8 +26,10 @@ void hit ( void )
   //hellfire
   add_magic("item-sfb", 437, 2);
   //lightsword
-  add_item("item-sw3", 438, 5);
+  add_item("item-sw3", 438, 21);
+  &cur_magic = 1;
   arm_magic();
+  &cur_weapon = 2;
   arm_weapon();
   draw_status();
 
